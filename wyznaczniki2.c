@@ -5,7 +5,7 @@
 	
 	autor:  Michal Jarzynski
 	data:   23.11.2017r
-	wersja: 2.0
+	wersja: 2.0 (z CLion)
 */
 
 #include <stdio.h>
@@ -56,7 +56,7 @@ void oblicz(double a1,double b1, double c1, double a2, double b2, double c2)
 	wy=(a1*c2)-(c1*a2);
 	if(w==0)
 	{
-		if((wx=0)&&(wy=0)) puts("Uklad rownan jest nieoznaczony - posiada nieskonczenie wiele rozwiazan");
+		if((wx==0)&&(wy==0)) puts("Uklad rownan jest nieoznaczony - posiada nieskonczenie wiele rozwiazan");
 		else puts("Uklad jest sprzeczny - nie posiada rozwiazan");
 	}
 	else
