@@ -1,0 +1,4 @@
+# ignoruj nastepujace pliki
+*.o
+*.out
+*.c~
